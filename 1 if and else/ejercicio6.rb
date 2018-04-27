@@ -6,5 +6,4 @@ b = 'falso'
 
 puts ':)' if a == 'verdadero'
 puts ':|' if a == 'falso' && b == 'verdadero'
-puts ':()' if a == 'falso' && b == 'falso'
-# según el profe
+puts ':(' if a == 'falso' && b == 'falso'
