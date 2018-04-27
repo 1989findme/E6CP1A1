@@ -3,8 +3,5 @@
 
 multiplicacion = 1
 
-10.times do |i|
-  multiplicacion *= i
-end
-
+10.times { |i| multiplicacion *= i + 1 }
 puts multiplicacion

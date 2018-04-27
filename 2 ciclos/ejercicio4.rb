@@ -8,9 +8,9 @@
 # </ul>
 
 a = 5
-b = ''
+b = '<ul>' + "\n"
 
-a.times do
-  b = '<li> hola </li>'
-end
+a.times {b += '<li> hola </li>' + "\n"}
+b += '</ul>' + "\n"
 
+puts b
