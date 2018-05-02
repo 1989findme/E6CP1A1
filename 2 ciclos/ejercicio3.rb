@@ -10,4 +10,5 @@ end
 (1..990).each { |i| puts i if (990 % i).zero? }
 
 
-990.times { |i| puts i if (990 % i).zero? }
+
+990.times { |i| puts i + 1 if (990 % (i + 1)).zero? }
